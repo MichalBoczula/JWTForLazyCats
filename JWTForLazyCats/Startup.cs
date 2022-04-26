@@ -41,7 +41,7 @@ namespace JWTForLazyCats
             services.AddSwaggerGen(options => {
                 options.AddSecurityDefinition("oauth2", new OpenApiSecurityScheme
                 {
-                    Description = "Standard Authorization header using the Bearer scheme (\"bearer {token}\")",
+                    Description = "Zoba na to!!! Schemat logowania: (\"bearer {token}\")",
                     In = ParameterLocation.Header,
                     Name = "Authorization",
                     Type = SecuritySchemeType.ApiKey
